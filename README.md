@@ -51,6 +51,8 @@ SELECT Department, COUNT (Department) as Count
   GROUP BY Department 
   ORDER BY Count DESC
 ```
+![Dep 2](https://github.com/user-attachments/assets/8af95fc2-345d-4f79-a990-21e2cd7bd198)
+
 ### What Location (Head quarter or Remote) has the highest attrition rate?
 ```sql
 SELECT Location, COUNT (Location)How_many 
