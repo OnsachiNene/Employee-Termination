@@ -61,6 +61,9 @@ SELECT Location, COUNT (Location)How_many
   GROUP BY Location 
   ORDER BY How_many DESC
 ```
+ ![location](https://github.com/user-attachments/assets/7ab2175b-2422-4e2a-9d46-d6fd09e21414)
+
+
 ### What Age group has the highest Attrition rate?
 - The original table does not have an Age group column, which necessitated the need to use subqueries
 ```sql
@@ -79,7 +82,9 @@ FROM (
 ) AS Sub
 GROUP BY Age_group
 ORDER BY How_many DESC
-``` 
+```
+![agee](https://github.com/user-attachments/assets/15f75e26-6b8c-40e1-beca-349b739ccf09)
+
 
 
 
