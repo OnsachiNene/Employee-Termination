@@ -43,7 +43,7 @@ WHERE Count_id IS NOT NULL
 GROUP BY id
 HAVING COUNT(id) > 1
 ```
-### What department has the highest staff termination 
+### What department has the highest staff attrition?
 ```sql
 SELECT Department, COUNT (Department) as Count 
   FROM Att 
@@ -53,7 +53,7 @@ SELECT Department, COUNT (Department) as Count
 ```
 ![Dep 2](https://github.com/user-attachments/assets/8af95fc2-345d-4f79-a990-21e2cd7bd198)
 
-### What Location (Head quarter or Remote) has the highest attrition rate?
+### What Location (Head quarter or Remote) has the highest attrition?
 ```sql
 SELECT Location, COUNT (Location)How_many 
   FROM Att 
@@ -64,7 +64,7 @@ SELECT Location, COUNT (Location)How_many
  ![location](https://github.com/user-attachments/assets/7ab2175b-2422-4e2a-9d46-d6fd09e21414)
 
 
-### What Age group has the highest Attrition rate?
+### What age group has the highest attrition?
 - The original table does not have an Age group column, which necessitated the need to use subqueries
 ```sql
 SELECT 
