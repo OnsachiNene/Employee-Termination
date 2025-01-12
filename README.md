@@ -11,7 +11,7 @@
 ### Tools used
 - Excel (Data Cleaning)
 - Sql (CRUD Operations)
-- Power Bi (Visualization)
+- Àzure Data Studio (Visualization)
 
 ### Lets get into business, or should i say Queryness 
 #### Data cleaning and Preparation: 
