@@ -17,10 +17,10 @@ Employee attrition refers to the gradual reduction of a company’s workforce th
 - SQL (Filtering, Aggregation, Data Integrity Checks)
 - Azure Data Studio (Bar Charts, Attrition Visuals)
 
-### Let’s dive into the queries and uncover the story hidden in the data
-#### Data Cleaning and Preparation
+## Let’s dive into the queries and uncover the story hidden in the data
+### Data Cleaning and Preparation
 The dataset was first loaded into Excel for an initial inspection. Using Power Query, I cleaned and transformed the data—this included changing data types, replacing inconsistent values, and handling missing entries.
-Next, I imported the cleaned data into SQL, where I performed CRUD operations to explore the dataset. I used (SELECT), (COUNT), (AGGREGATE), and (FILTER) functions to answer specific questions. Data cleaning continued within SQL as well—because let’s be honest, data cleaning is never really one and done
+Next, I imported the cleaned data into SQL, where I performed CRUD operations to explore the dataset. I used SQL commands like `SELECT`, `COUNT`, and `GROUP BY` to analyze the data. Data cleaning continued within SQL as well—because let’s be honest, data cleaning is never really one and done
 
 ### Exploratory Analysis. 
 #### For this dataset, I set out to answer the following key questions:
