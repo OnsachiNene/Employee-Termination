@@ -19,13 +19,13 @@ Employee attrition refers to the gradual reduction of a company’s workforce th
 
 ## Let’s dive into the queries and uncover the story hidden in the data
 ### Data Cleaning and Preparation
-The dataset was first loaded into Excel for an initial inspection. Using Power Query, I cleaned and transformed the data—this included changing data types, replacing inconsistent values, and handling missing entries.
-Next, I imported the cleaned data into SQL, where I performed CRUD operations to explore the dataset. I used SQL commands like `SELECT`, `COUNT`, `AGGREGATE`  and `GROUP BY` to analyze the data. Data cleaning continued within SQL as well—because let’s be honest, data cleaning is never really one and done
+The dataset was first loaded into Excel for an initial inspection. Using Power Query, I cleaned and transformed the data. This included changing data types, replacing inconsistent values, and handling missing entries.
+Next, I imported the cleaned data into SQL, where I performed CRUD operations to explore the dataset. I used SQL commands like `SELECT`, `COUNT`, `AGGREGATE`  and `GROUP BY` to analyze the data. Data cleaning continued within SQL as well because let’s be honest, data cleaning is never really one and done
 
 ### Exploratory Analysis. 
 #### For this dataset, I set out to answer the following key questions:
 1. Which department has the highest attrition rate?
-2. Which location—Headquarters or Remote—experiences more employee turnover?
+2. Which location, Headquarters or Remote experiences more employee turnover?
 3. Which age group records the highest rate of attrition?
 4. These questions guided my analysis and helped uncover patterns that could inform better HR decision-making.
 
