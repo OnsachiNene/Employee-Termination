@@ -55,7 +55,7 @@ SELECT Department, COUNT (Department) as Count
 ```
 ![Dep 2](https://github.com/user-attachments/assets/8af95fc2-345d-4f79-a990-21e2cd7bd198)
 
-## The highest attrition rate was in the Sales department, suggesting possible burnout or dissatisfaction that may require HR intervention.
+#### The highest attrition rate was in the Engineering department, suggesting possible burnout or dissatisfaction that may require HR intervention.
 
 ### Question 2- What Location (Head quarter or Remote) has the highest attrition?
 ```sql
@@ -66,7 +66,7 @@ SELECT Location, COUNT (Location)How_many
   ORDER BY How_many DESC
 ```
  ![location](https://github.com/user-attachments/assets/7ab2175b-2422-4e2a-9d46-d6fd09e21414)
-## Results show that the highest attrition rates are from the headquarters. This suggests possible workplace-related challenges such as increased pressure, stricter supervision, lack of flexibility, or lower job satisfaction compared to remote workers. It may indicate the need for HR to further investigate internal policies, management styles, or employee engagement strategies at the headquarters to improve retention
+#### Results show that the highest attrition rates are from the headquarters. This suggests possible workplace-related challenges such as increased pressure, stricter supervision, lack of flexibility, or lower job satisfaction compared to remote workers. It may indicate the need for HR to further investigate internal policies, management styles, or employee engagement strategies at the headquarters to improve retention
 
 ### Question 3- What age group has the highest attrition?
 - The original table does not have an Age group column, which necessitated the need to use subqueries
@@ -88,12 +88,15 @@ GROUP BY Age_group
 ORDER BY How_many DESC
 ```
 ![agee](https://github.com/user-attachments/assets/15f75e26-6b8c-40e1-beca-349b739ccf09)
-## Results show that there is no clear-cut distinction in attrition rates across age groups. This indicates that employee turnover is relatively evenly distributed, suggesting that factors driving attrition may not be age-specific but rather linked to broader organizational issues such as company culture, job roles, management practices, or work-life balance. It highlights the need for a more nuanced approach to retention strategies that consider diverse employee experiences beyond just age demographics
+#### Results show that there is no clear-cut distinction in attrition rates across age groups. This indicates that employee turnover is relatively evenly distributed, suggesting that factors driving attrition may not be age-specific but rather linked to broader organizational issues such as company culture, job roles, management practices, or work-life balance. It highlights the need for a more nuanced approach to retention strategies that consider diverse employee experiences beyond just age demographics
 
 ### Conclusion 
 This exploratory analysis of employee attrition revealed several important trends. The highest attrition rates were observed in the headquarters, suggesting that in-office employees may be facing workplace-related challenges such as stricter oversight, less flexibility, or job dissatisfaction compared to their remote counterparts.
+
 In terms of departmental turnover, specific departments showed noticeably higher attrition, indicating possible issues with departmental management, workload, or career progression opportunities that warrant further investigation.
+
 Interestingly, age-based attrition was relatively balanced across all groups, suggesting that employee exits are influenced more by organizational factors than by age demographics. This finding implies that retention strategies should focus on improving the overall employee experience rather than targeting specific age segments.
+
 Overall, this analysis provides a foundational understanding of attrition patterns and highlights key areas where HR efforts can be focused to reduce turnover and improve employee satisfaction.
 
 
