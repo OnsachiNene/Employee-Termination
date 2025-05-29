@@ -3,7 +3,7 @@
 ### What is Employee Attrition?
 Employee attrition refers to the gradual reduction of a company’s workforce through voluntary resignations, retirements, or other forms of departure without immediate replacement. Understanding attrition helps organizations identify patterns behind employee turnover and develop strategies to improve retention.
 
-##Project Overview
+## 🔍 Project Overview
 ### This project focuses on:
 - Cleaning and normalizing a complex, unstructured dataset
 - Performing CRUD (Create, Read, Update, Delete) operations to answer key business questions
@@ -23,7 +23,7 @@ The dataset was first loaded into Excel for an initial inspection. Using Power Q
 Next, I imported the cleaned data into SQL, where I performed CRUD operations to explore the dataset. I used (SELECT), (COUNT), (AGGREGATE), and (FILTER) functions to answer specific questions. Data cleaning continued within SQL as well—because let’s be honest, data cleaning is never really one and done
 
 ### Exploratory Analysis. 
-- For this dataset, I set out to answer the following key questions:
+#### For this dataset, I set out to answer the following key questions:
 1. Which department has the highest attrition rate?
 2. Which location—Headquarters or Remote—experiences more employee turnover?
 3. Which age group records the highest rate of attrition?
